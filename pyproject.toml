@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "analysis_template"
+version = "0.1.0"
+description = "A flexible template for organizing data analysis with Python"
+authors = ["Ryan Frazier <Ryan@fotonixx.com>"]
+
+[tool.poetry.dependencies]
+python = ">3.8.0,<3.9"
+jupyterlab = "^3.0.16"
+numpy = "^1.20.3"
+scipy = "^1.6.3"
+matplotlib = "^3.4.2"
+pandas = "^1.2.4"
+ipykernel = "^5.5.5"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.13.0"
+nbconvert = "^6.0.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
