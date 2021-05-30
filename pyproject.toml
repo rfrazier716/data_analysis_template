@@ -12,6 +12,7 @@ scipy = "^1.6.3"
 matplotlib = "^3.4.2"
 pandas = "^1.2.4"
 ipykernel = "^5.5.5"
+dvc = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.13.0"
